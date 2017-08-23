@@ -5,4 +5,5 @@ containers:
     detach: true
     publish:
         - 80:80
+    env: ["PORT=$PORT", "SECRET"="$SECRET", "ORGID=$ORGID", "APIKEY=$APIKEY", "REDISHOST=$REDISHOST", "REDISPW=$REDISPW", "RPORT=$RPORT", "BINDSLUG=$BINDSLUG", "DISABLENGINX=$DISABLENGINX"]
    
