@@ -1,0 +1,8 @@
+containers:
+- image: 'tykio/tyk-hybrid-docker'
+  name: webapp
+  run:
+    detach: true
+    publish:
+        - 80:80
+   
